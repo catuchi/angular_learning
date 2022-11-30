@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'Hello World';
   showText = false;
   todaysDate = new Date();
+  itemImageUrl = '../assets/zoro.jpeg';
 
   toggleText(event): void {
     this.showText = !this.showText;
