@@ -1,2 +1,6 @@
-<app-hello-world></app-hello-world> {{ title }} {{ getMin(5, 3) }}
-<app-parent></app-parent>
+{{ title }} {{ getMin(5, 3) }}
+<!-- <app-parent></app-parent> -->
+<app-child-two>
+  <h3 question>Is this ng-content cool?</h3>
+  <p answer>Yeah it is!</p>
+</app-child-two>
