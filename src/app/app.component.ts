@@ -7,6 +7,12 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello World';
+  showText = false;
+
+  toggleText(event): void {
+    this.showText = !this.showText;
+    console.log(event);
+  }
 
   getMin(a, b) {
     if (a < b) return a;
