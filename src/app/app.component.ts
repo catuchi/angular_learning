@@ -8,6 +8,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 export class AppComponent {
   title = 'Hello World';
   showText = false;
+  todaysDate = new Date();
 
   toggleText(event): void {
     this.showText = !this.showText;
